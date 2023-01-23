@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	alert("Thankyou for loading the form");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-18 12:43:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa3186542fec2110a853f21df699b68d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_563598_needit">113d99dc2f2c2110a853f21df699b666</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">113d99dc2f2c2110a853f21df699b666</sys_scope>
+        <sys_update_name>sys_script_client_aa3186542fec2110a853f21df699b68d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-18 12:54:59</sys_updated_on>
+        <table>x_563598_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_nlu_language">
+    <sys_cs_nlu_language action="INSERT_OR_UPDATE">
+        <enabled>false</enabled>
+        <language display_value="Portuguese">3031f6bd2fe4a510a853f21df699b6f5</language>
+        <sys_class_name>sys_cs_nlu_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-23 08:00:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7431f6bd2fe4a510a853f21df699b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_563598_needit">113d99dc2f2c2110a853f21df699b666</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">113d99dc2f2c2110a853f21df699b666</sys_scope>
+        <sys_update_name>sys_cs_nlu_language_7431f6bd2fe4a510a853f21df699b6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-23 08:00:20</sys_updated_on>
+    </sys_cs_nlu_language>
+</record_update>
