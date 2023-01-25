@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_563598_needit.dueSoonNeedItTasks</event_name>
+        <name>Update Due Soon NeedIt Task Priority</name>
+        <order>100</order>
+        <script><![CDATA[current.priority = 2;
+
+current.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-24 10:37:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f1e9cd62f2ce510a853f21df699b6d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update Due Soon NeedIt Task Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_563598_needit">113d99dc2f2c2110a853f21df699b666</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">113d99dc2f2c2110a853f21df699b666</sys_scope>
+        <sys_update_name>sysevent_script_action_0f1e9cd62f2ce510a853f21df699b6d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-24 11:12:13</sys_updated_on>
+    </sysevent_script_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">113d99dc2f2c2110a853f21df699b666</application>
+        <file_path/>
+        <instance_id>48df515bdbb4f34042b321c405961907</instance_id>
+        <instance_name>dev81995</instance_name>
+        <name>sysevent_script_action_0f1e9cd62f2ce510a853f21df699b6d8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;x_563598_needit.dueSoonNeedItTasks&lt;/event_name&gt;&lt;name&gt;Update Due Soon NeedIt Task Priority&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.priority = 2;
+
+current.update();]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-24 10:37:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0f1e9cd62f2ce510a853f21df699b6d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Due Soon NeedIt Task Priority&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_563598_needit"&gt;113d99dc2f2c2110a853f21df699b666&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;113d99dc2f2c2110a853f21df699b666&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_0f1e9cd62f2ce510a853f21df699b6d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-24 11:12:13&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-816540766</payload_hash>
+        <record_name>Update Due Soon NeedIt Task Priority</record_name>
+        <reverted_from/>
+        <source>f31999062f60e510a853f21df699b6b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-24 11:12:13</sys_created_on>
+        <sys_id>6db6ecde2f2ce510a853f21df699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185e37a7e0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-24 11:12:13</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>65b6ecde4d2ce5107b17394ebcc03dcc</update_guid>
+        <update_guid_history>65b6ecde4d2ce5107b17394ebcc03dcc:-816540766,92e4249ee72ce5102aab4777a5278be3:1877922814,42ae94d6cd2ce510353a55b91d5cb38f:1900123957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-24 11:26:38</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>4604962e9c3f43ffa7476139921466f9</sys_id>
+        <sys_metadata>0f1e9cd62f2ce510a853f21df699b6d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Due Soon NeedIt Task Priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_563598_needit">113d99dc2f2c2110a853f21df699b666</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">113d99dc2f2c2110a853f21df699b666</sys_scope>
+        <sys_scope_delete display_value="">516b0b747f8a42b6abe1f5f50bbb0064</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_0f1e9cd62f2ce510a853f21df699b6d8</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_0f1e9cd62f2ce510a853f21df699b6d8">6db6ecde2f2ce510a853f21df699b6cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-24 11:26:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
